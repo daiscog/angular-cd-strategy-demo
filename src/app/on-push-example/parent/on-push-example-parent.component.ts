@@ -6,7 +6,7 @@ import {BehaviorSubject} from "rxjs";
   templateUrl: './on-push-example-parent.component.html'
 })
 export class OnPushExampleParentComponent {
-  clickCounters = [...Array(9).keys()].map(_ => new BehaviorSubject<number>(0));
+  clickCounters = [...Array(5).keys()].map(_ => new BehaviorSubject<number>(0));
 
   otherBtnClickCount = 0;
 

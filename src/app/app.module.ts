@@ -32,7 +32,7 @@ import {OnPushExampleParentComponent} from "./on-push-example/parent/on-push-exa
         path: 'onpush',
         component: OnPushExampleParentComponent
       }
-    ])
+    ], {useHash: true})
   ],
   providers: [],
   bootstrap: [AppComponent]

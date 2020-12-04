@@ -1,6 +1,6 @@
-section {
-  margin: 32px;
+.click-counters {
+  margin: 32px 0;
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
+  overflow: auto;
 }

@@ -6,7 +6,7 @@ import {BehaviorSubject} from "rxjs";
   templateUrl: './default-example-parent.component.html'
 })
 export class DefaultExampleParentComponent {
-  clickCounters = [...Array(9).keys()].map(_ => new BehaviorSubject<number>(0));
+  clickCounters = [...Array(5).keys()].map(_ => new BehaviorSubject<number>(0));
 
   otherBtnClickCount = 0;
 
