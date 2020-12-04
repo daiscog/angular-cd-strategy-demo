@@ -1,0 +1,21 @@
+<h1>Default change detection strategy</h1>
+
+<section class="click-counters">
+
+  <app-default-example-child-component
+    *ngFor="let c of clickCounters; let i = index"
+    [clickCount]="c | async"
+    (btnClick)="increment(i)"
+  ></app-default-example-child-component>
+
+</section>
+<section>
+  <div>
+    <p>
+      <button type="button" (click)="incrementOtherBtnClickCount()">
+        Or me!
+      </button>
+    </p>
+    <p>{{otherBtnClickCount}}</p>
+  </div>
+</section>

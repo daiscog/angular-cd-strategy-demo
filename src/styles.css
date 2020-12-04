@@ -1,0 +1,6 @@
+section {
+  margin: 32px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
